@@ -1,0 +1,13 @@
+<svg width="260" height="96" viewBox="0 0 260 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="leafFillLight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#86EFAC"/>
+      <stop offset="100%" stop-color="#22C55E"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="8" width="80" height="80" rx="40" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.35)" stroke-width="2"/>
+  <path d="M44 60C56 56 63 47 64 34C51 35 41 43 36 55C35 57 34 59 34 61C37 61 40 61 44 60Z" fill="url(#leafFillLight)"/>
+  <path d="M51 63C60 58 66 51 70 42" stroke="#BBF7D0" stroke-width="3" stroke-linecap="round"/>
+  <text x="98" y="42" fill="#F0FDF4" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700" letter-spacing="0.8">NANA'S</text>
+  <text x="98" y="70" fill="#DCFCE7" font-family="Manrope, Arial, sans-serif" font-size="24" font-weight="800" letter-spacing="2">NATURAL</text>
+</svg>

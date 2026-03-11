@@ -1,0 +1,13 @@
+{
+  "name": "nanas-natural-final-v1",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm --prefix ./devacarefrontend run dev",
+    "dev:frontend": "npm --prefix ./devacarefrontend run dev",
+    "dev:backend": "npm --prefix ./devcarebackend run dev",
+    "start:backend": "npm --prefix ./devcarebackend run start",
+    "build": "npm --prefix ./devacarefrontend run build",
+    "lint": "npm --prefix ./devacarefrontend run lint"
+  }
+}
