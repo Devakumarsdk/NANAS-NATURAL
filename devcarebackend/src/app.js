@@ -4,7 +4,6 @@ const cors = require('cors');
 const helmet = require('helmet');
 const morgan = require('morgan');
 const rateLimit = require('express-rate-limit');
-const { getSupabaseStatus } = require('./config/supabase');
 
 const app = express();
 
@@ -52,7 +51,6 @@ app.use('/api/reviews', require('./routes/reviews'));
 app.use('/api/admin', require('./routes/admin'));
 app.use('/api/coupons', require('./routes/coupons'));
 app.use('/api/wishlist', require('./routes/wishlist'));
-app.use('/api/supabase-notes', require('./routes/supabaseNotes'));
 
 app.get('/api/health', (req, res) => {
   res.json({
@@ -61,7 +59,6 @@ app.get('/api/health', (req, res) => {
     timestamp: new Date(),
     database: {
       mongo: mongoose.connection.readyState === 1 ? 'connected' : 'disconnected',
-      supabase: getSupabaseStatus(),
     },
   });
 });

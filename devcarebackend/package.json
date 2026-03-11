@@ -7,13 +7,11 @@
                     "start":  "node src/server.js",
                     "dev":  "nodemon src/server.js",
                     "seed":  "node src/seed.js",
-                    "seed:reset":  "node src/seed.js",
-                    "migrate:supabase": "node src/migrateMongoToSupabase.js"
+                    "seed:reset":  "node src/seed.js"
                 },
     "dependencies":  {
                          "express":  "^4.18.2",
                          "mongoose":  "^7.6.3",
-                         "pg": "^8.13.3",
                          "cors":  "^2.8.5",
                          "dotenv":  "^16.3.1",
                          "bcryptjs":  "^2.4.3",
