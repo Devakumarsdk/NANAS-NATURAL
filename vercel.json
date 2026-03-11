@@ -1,6 +1,6 @@
 {
   "framework": "vite",
-  "installCommand": "npm install",
+  "installCommand": "npm --prefix ./devacarefrontend install",
   "buildCommand": "npm --prefix ./devacarefrontend run build",
   "outputDirectory": "devacarefrontend/dist"
 }
