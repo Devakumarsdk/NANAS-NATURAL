@@ -2,6 +2,10 @@
   "name": "nanas-natural-final-v1",
   "private": true,
   "version": "1.0.0",
+  "workspaces": [
+    "devacarefrontend",
+    "devcarebackend"
+  ],
   "scripts": {
     "dev": "npm --prefix ./devacarefrontend run dev",
     "dev:frontend": "npm --prefix ./devacarefrontend run dev",
